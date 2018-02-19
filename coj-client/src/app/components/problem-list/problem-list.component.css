@@ -1,0 +1,39 @@
+.problem-list-table .problem:hover {
+  cursor: pointer;
+}
+
+
+.problem-list-table {
+  margin-top: 5rem;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  line-height: 1;
+  color: #fbfdfa;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: center;
+}
+
+.difficulty {
+  display: inline-block;
+  width: 65px;
+}
+
+.diff-easy {
+  background-color: #5cb85c;
+}
+
+.diff-medium {
+  background-color: #f0ad4e;
+}
+
+.diff-hard {
+  background-color: #d9534f;
+}
+
+.diff-super {
+  background-color: #8D6EC8;
+}
